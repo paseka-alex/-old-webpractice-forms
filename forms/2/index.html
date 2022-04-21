@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../task2/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+                <form>
+                    <h1>Inputs</h1>
+                    <div class="fieldContainer inputs">
+                        <div class="field">
+                            <input type="text" class="input" type="text" placeholder="Enter some text" required >                      
+                        </div>
+                        <div class="field">
+                            <input type="text" class="input valid" type="text" value="valid text" required >                      
+                        </div>
+                        <div class="field">
+                            <input type="text" pattern="" class="input invalid" type="text" value="invalid text" required>                      
+                        </div>
+                    </div>
+                    <h1>Checkboxes</h1>
+                    <div class="fieldContainer chechboxes">
+                        <div class="field">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider"></span>                              
+                            </label>
+                            <label class="description">Subscribe</label>
+                        </div>
+                        <div class="field">
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider"></span>
+                            </label>
+                            <label class="description">Subscribe</label>
+                        </div>
+                    </div>
+                    <h1>Radio buttons</h1>
+                    <div class="fieldContainer">
+                        <p>Gender:</p>
+                        <div class="field">
+                            <label class="radio">
+                                <input type="radio" name="gender" checked>
+                                <div class="radio__text description">Male</div>
+                            </label>
+                        </div>
+                        <div class="field">
+                            <label class="radio">
+                                <input type="radio" name="gender">
+                                <div class="radio__text description">Female</div>
+                            </label>
+                        </div>
+                    </div>
+                    <h1>Buttons</h1>
+                    <div class="fieldContainer">
+                        <div class="field"><button class="button active">Active</button></div>
+                        <div class="field"><button class="button active-hover">Hover</button></div>
+                        <div class="field"><button class="button danger">Danger</button></div>
+                        <div class="field"><button class="button danger-hover">Hover</button></div>
+                        <div class="field"><button class="button disabled">Disabled</button></div>
+                        <div class="field"><button class="button round plus">+</button></div>
+                        <div class="field"><button class="button round minus">-</button></div>
+                    </div>
+                    <h1>Text area</h1>
+                    <div class="fieldContainer">
+                        <div class="field textarea">
+                            <textarea name="text-area" placeholder="Enter some text.." cols="50" rows="8"></textarea>
+                        </div>
+                    </div>
+                </form>
+        </div>
+    </div>
+</body>
+</html>
