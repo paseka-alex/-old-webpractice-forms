@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../task3/css/style.css">
+</head>
+<body>
+    <div class="register-form">
+        <form>
+            <div class="column">
+                <h1>Registration Form</h1>
+                <div class="fieldContainer">
+                    <img class="icon" src="icons/username.png">
+                    <input class="field" type="text" placeholder="Username" name="usrnm" />
+                </div>
+                <div class="fieldContainer">
+                    <img class="icon" src="icons/email.png">
+                    <input class="field" type="text" placeholder="Email" name="email" />
+                </div>
+                <div class="fieldContainer double">
+                    <div class="fieldContainer with-icon">
+                        <img class="icon" src="icons/pswd.png">
+                        <input class="field" type="password" placeholder="Password" name="pass"/>
+                    </div>
+                    <div class="fieldContainer">
+                        <input class="field confirm" type="password" placeholder="Confirm assword" name="pass"/>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h1>Personal details</h1>
+                <div class="fieldContainer double">
+                    <input class="field" type="text" placeholder="First name" name="first-name" />
+                    <input class="field" type="text" placeholder="Last name" name="last-name" />
+                </div>
+                <div class="fieldContainer double">
+                    <input class="field" type="text" placeholder="Email" name="email" />
+                    <input class="field" type="date" placeholder="mm/dd/yyyy" name="date" />
+                </div>
+            </div>
+            <div class="column checkboxes">
+                <div class="fieldContainer">
+    			    <label for="cb1"><input type="checkbox" id="cb1">I agree with terms and conditions</label>
+                </div>
+                <div class="fieldContainer">                  
+    			    <label for="cb2"><input type="checkbox" id="cb2">I want to receive the newsletter</label>
+                </div>
+            </div>
+        </form>
+        <div class="footer">     
+            <button class="btn">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
